@@ -1,0 +1,60 @@
+/*General formatting*/
+
+*, ::before, ::after{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: hsl(212, 45%, 89%) ;
+    font-family: 'Outfit', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    Display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*card formatting*/
+
+.card{
+    position: relative;
+    width: 300px;
+    height: max-content;
+    background-color: #ffffff;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.card img{
+    width: 260px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card h1{
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+.card p{
+    padding: 10px 20px 50px 20px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
+/*attribution*/
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
